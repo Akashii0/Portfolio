@@ -8,5 +8,5 @@ app = FastAPI()
 
 @app.get('/')
 def homepage(request: Request):
-    return templates.TemplateResponse("home.html", {"request": request, "name": "Welcome to my Portfolio!"})
+    return templates.TemplateResponse("index.html", {"request": request, "name": "Welcome to my Portfolio!"})
 
