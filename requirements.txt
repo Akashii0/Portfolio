@@ -14,7 +14,7 @@ cryptography==3.4.8
 dnspython==2.1.0
 ecdsa==0.17.0
 email-validator
-fastapi==0.68.0
+fastapi
 graphene==2.1.9
 graphql-core==2.3.2
 graphql-relay==2.0.1
