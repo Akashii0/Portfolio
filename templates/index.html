@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style></style>
+		<link rel="shortcut icon" type="image/icon" href="static/logo/favicon.png"/>
+        <link rel="stylesheet" href="..\static/css/font-awesome.min.css">
+		<link rel="stylesheet" href="..\static/css/flaticon.css">
+        <link rel="stylesheet" href="..\static/css/animate.css">
+        <link rel="stylesheet" href="..\static/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="..\static/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="..\static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="..\static/css/bootsnav.css" >	
+        <link rel="stylesheet" href="..\static\css\style.css">
+        <link rel="stylesheet" href="..\static/css/responsive.css">
 </head>
 <body>
     <header class="top-area">
         <div class="header-area">
-            <!-- Start Navigation -->
             <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
 
                 <div class="container">
-
-                    <!-- Start Header Navigation -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="index.html">browny</a>
-                    </div><!--/.navbar-header-->
-                    <!-- End Header Navigation -->
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
+                        <a class="navbar-brand" href="index.html">Akashi</a>
+                    </div>
                     <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class=" smooth-menu active"></li>
@@ -34,18 +37,110 @@
                             <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
                             <li class="smooth-menu"><a href="#clients">clients</a></li>
                             <li class="smooth-menu"><a href="#contact">contact</a></li>
-                        </ul><!--/.nav -->
-                    </div><!-- /.navbar-collapse -->
-                </div><!--/.container-->
-            </nav><!--/nav-->
-            <!-- End Navigation -->
-        </div><!--/.header-area-->
-
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
         <div class="clearfix"></div>
+    </header>
 
-    </header><!-- /.top-area-->
-    <p>
-        {{ name }}
-    </p>
+    <section id="welcome-hero" class="welcome-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="header-text">
+                        <h2>hi <span>,</span> i am <br> Akashi <span>.</span>   </h2>
+                        <p>Backend & AI/ML Developer.</p>
+                        <a href="assets/download/browney.txt" download>download resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about start -->
+		<section id="about" class="about">
+			<div class="section-heading text-center">
+				<h2>about me</h2>
+			</div>
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3>
+									I am a passionate backend developer and AI/ML enthusiast with strong experience in building scalable web services and developing intelligent systems.
+								</h3>
+								<p>
+									My technical expertise lies in Python programming, FastAPI backend development, and implementing machine learning models to solve complex problems. I enjoy designing efficient, high-performance APIs and integrating machine learning pipelines to drive innovation and automation. Whether it's creating data-driven solutions, optimizing backend systems, or deploying AI models into production, I thrive on tackling challenging projects and continuously learning the latest technologies.
+								</p>
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>phone</h3>
+											<p>987-123-6547</p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>email</h3>
+											<p>browny@info.com</p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>website</h3>
+											<p>www.brownsine.com</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
+								<div class="about-list-icon">
+									<ul>
+										<li>
+											<a href="#">
+												<i  class="fa fa-facebook" aria-hidden="true"></i>
+											</a>
+										</li><!-- / li -->
+										<li>
+											<a href="#">
+												<i  class="fa fa-dribbble" aria-hidden="true"></i>
+											</a>
+											
+										</li><!-- / li -->
+										<li>
+											<a href="#">
+												<i  class="fa fa-twitter" aria-hidden="true"></i>
+											</a>
+											
+										</li><!-- / li -->
+										<li>
+											<a href="#">
+												<i  class="fa fa-linkedin" aria-hidden="true"></i>
+											</a>
+										</li><!-- / li -->
+										<li>
+											<a href="#">
+												<i  class="fa fa-instagram" aria-hidden="true"></i>
+											</a>
+										</li><!-- / li -->
+										
+										
+									</ul><!-- / ul -->
+								</div><!-- /.about-list-icon -->
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/.about-->
+		<!--about end -->
 </body>
 </html>
