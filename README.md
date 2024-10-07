@@ -54,6 +54,13 @@ I developed a dynamic portfolio website using FastAPI as the backend framework a
 4. Test the application by making requests to endpoints.
 
 
+### Technologies Used:
+
+**Backend:** FastAPI (Python), Jinja2 templates for dynamic HTML rendering.
+**Frontend:** HTML, CSS, JavaScript for interactivity and styling.
+**Deployment:** Deployed on akashi.7o7.cx for public access, with proper version control using Git.
+
+
 For detailed information, refer to the following resources:
 
 - FastAPI documentation: https://fastapi.tiangolo.com/
