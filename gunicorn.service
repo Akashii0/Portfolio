@@ -8,7 +8,7 @@ Group=xen
 WorkingDirectory=/home/xen/portfolio/src/
 Environment="PATH=/home/xen/app/venv/bin"
 EnvironmentFile=/home/xen/.env
-ExecStart=/home/xen/app/venv/bin/gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:8000
+ExecStart=/home/xen/portfolio/venv/bin/gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:8000
 
 [install]
 WantedBy=multi-user.target 
