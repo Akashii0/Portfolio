@@ -1,2 +1,3 @@
 # Portfolio Website – Built with FastAPI and HTML/CSS
-My portfolio website.
+
+I developed a dynamic portfolio website using FastAPI as the backend framework and HTML/CSS for the frontend. The website showcases my projects, skills, and experience as a software developer, providing an interactive and responsive interface for visitors to explore my work. The aim was to create a fast, scalable, and easy-to-maintain platform that effectively presents my professional profile.
