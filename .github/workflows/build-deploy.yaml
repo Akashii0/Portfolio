@@ -2,6 +2,17 @@ name: Build and Deploy code for Portfolio
 description: Build and deploy code for portfolio website
 
 on: [push, pull_request]
-  push:
-    branches: ["main"]
-
+  jobs:
+    task1:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout code/Pulling git repo
+      uses: actions/checkout@v2
+      - name: Install python version 3.11.5
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.11.5"
+      - name: update pip
+        run: python -m pip install --upgrade pip
+      - name: install required packages
+        run: pip install -r requirements.txt
