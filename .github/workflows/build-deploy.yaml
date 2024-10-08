@@ -1,0 +1,7 @@
+name: Build and Deploy code for Portfolio
+description: Build and deploy code for portfolio website
+
+on: [push, pull_request]
+  push:
+    branches: ["main"]
+
