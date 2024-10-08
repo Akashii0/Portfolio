@@ -1,18 +1,42 @@
 name: Build and Deploy code for Portfolio
-description: Build and deploy code for portfolio website
 
 on: [push, pull_request]
-  jobs:
-    task1:
-      runs-on: ubuntu-latest
-      steps:
-      - name: Checkout code/Pulling git repo
-      uses: actions/checkout@v2
-      - name: Install python version 3.11.5
-      uses: actions/setup-python@v2
-      with:
-        python-version: "3.11.5"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pulling git repo
+        uses: actions/checkout@v2
+      - name: Install python version 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
       - name: update pip
         run: python -m pip install --upgrade pip
-      - name: install required packages
+      - name: install all dependencies
         run: pip install -r requirements.txt
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [build]
+    environment:
+      name: production
+    steps:
+      - name: pulling git repo
+        uses: actions/checkout@v2
+
+      - name: deploy to ubuntu server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{secrets.PROD_HOST}}
+          username: ${{secrets.PROD_USERNAME}}
+          password: ${{secrets.PROD_PASSWORD}}
+          script: |
+            cd app/src
+            git pull
+            echo ${{secrets.PROD_PASSWORD}} | sudo -S systemctl restart api
+        # login to our ubuntu
+        # cd /app/src
+        # git pull
+        # systemctl restart api
+
