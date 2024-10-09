@@ -37,3 +37,36 @@
 .flaticon-behance-logo:before { content: "\f105"; }
 .flaticon-dribbble:before { content: "\f106"; }
 .flaticon-themeforest:before { content: "\f107"; }
+
+.flaticon-discord-logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/discord-dark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flaticon-discord-light {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/discord-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flaticon-linkedin-logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/discord-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flaticon-whatsapp-logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/discord-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
