@@ -58,7 +58,15 @@
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url('../images/discord-logo.png');
+  background-image: url('../images/linkedIn.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flaticon-linkedin-dark {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/linkedin-dark.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -66,7 +74,7 @@
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url('../images/discord-logo.png');
+  background-image: url('../images/whatsapp.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
