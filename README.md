@@ -64,3 +64,8 @@ I developed a dynamic portfolio website using FastAPI as the backend framework a
 For detailed information, refer to the following resources:
 
 - FastAPI documentation: https://fastapi.tiangolo.com/
+
+### Contact Me:
+If you have any questions or would like to collaborate, please feel free to reach out to me through:
+**Email:** abdulkid151@gmail.com
+**LinkedIn Profile:** [https://](https://www.linkedin.com/in/abdulhakeem-raji-097619279)
