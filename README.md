@@ -67,5 +67,5 @@ For detailed information, refer to the following resources:
 
 ### Contact Me:
 If you have any questions or would like to collaborate, please feel free to reach out to me through:
-**Email:** abdulkid151@gmail.com
-**LinkedIn Profile:** [https://](https://www.linkedin.com/in/abdulhakeem-raji-097619279)
+# **Email:** abdulkid151@gmail.com
+# **LinkedIn Profile:** https://www.linkedin.com/in/abdulhakeem-raji-097619279
