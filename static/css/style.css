@@ -1,10 +1,4 @@
 /*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
 font-family: 'Poppins', sans-serif;
 ==================================== */
 
@@ -119,7 +113,8 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #d92cf9;
+    /* color: #d92cf9; */
+    color: #081f37;
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
@@ -139,7 +134,8 @@ nav.navbar.bootsnav ul.nav > li > a {
     transition: 0.3s linear;
 }
 nav.navbar.bootsnav ul.nav > li > a {padding: 35px 20px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
+/* nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;} */
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #5fc9f3}
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
@@ -163,7 +159,8 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     -webkit-box-shadow: inset 0 0 8px #000;
 }
 .menu-ui-design::-webkit-scrollbar-thumb {
-  background-color: #d92cf9;
+  /* background-color: #d92cf9; */
+  background-color: #5fc9f3;
 }
 /*.menu-ui-design*/
 
@@ -173,11 +170,13 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
-    border: 1px solid #d92cf9;
+    /* border: 1px solid #d92cf9; */
+    border: 1px solid #5fc9f3;
     padding: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
+/* nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;} */
+nav.navbar.bootsnav .navbar-toggle i{color: #5fc9f3}
 /*.navbar-toggle */
 
 
@@ -213,7 +212,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     text-transform: uppercase;
     line-height: 1.5;
 }
-.header-text h2 span {color: #d92cf9;}
+/* .header-text h2 span {color: #d92cf9;} */
+.header-text h2 span {color: #5fc9f3}
 .header-text p {
     color: #fff;
     font-size: 20px;
@@ -229,8 +229,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
-    border:1px solid #b636ff;
+    /* background: #b636ff; */
+    background: #5fc9f3;
+    /* border:1px solid #b636ff; */
+    border:1px solid #5fc9f3;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -238,7 +240,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+/* .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;} */
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#2e79ba;border: 1px solid #2e79ba;}
 /*.header-text-area*/
 
 /*-------------------------------------
