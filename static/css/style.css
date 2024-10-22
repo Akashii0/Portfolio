@@ -727,7 +727,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 /*--contct button--*/
 .contact-form .single-contact-btn {
-    display:flex;
+    display:flex; 
+    line-height: 1.5;
     align-items:center;
     justify-content:center;
     height:50px;
@@ -747,6 +748,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .contact-form .single-contact-btn .contact-btn ,
 .contact-form .single-contact-btn .contact-btn:focus {
+    width: 100%;
     margin-top:0px;
     outline: 0 !important;
     border:0;
